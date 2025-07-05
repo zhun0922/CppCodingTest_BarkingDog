@@ -13,22 +13,142 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\0x01">
-      <UniqueIdentifier>{7b2b7111-c0da-4d49-b1d1-f9ae4f1a63cf}</UniqueIdentifier>
+    <Filter Include="소스 파일\0x01_f">
+      <UniqueIdentifier>{eca16f18-897b-4e4d-8495-57a756b33c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0x02_f">
+      <UniqueIdentifier>{1c648443-d50d-489b-a3fa-817210df2a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0x03_f">
+      <UniqueIdentifier>{c38cb80d-387d-42b7-b1b1-61bb1f287990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0x04_f">
+      <UniqueIdentifier>{d66f15ae-325e-4b4c-89fe-8f3669b8d659}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_1.cpp">
-      <Filter>소스 파일\0x01</Filter>
+      <Filter>소스 파일\0x01_f</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_2.cpp">
-      <Filter>소스 파일\0x01</Filter>
+      <Filter>소스 파일\0x01_f</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_3.cpp">
-      <Filter>소스 파일\0x01</Filter>
+      <Filter>소스 파일\0x01_f</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_4.cpp">
-      <Filter>소스 파일\0x01</Filter>
+      <Filter>소스 파일\0x01_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b1000.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b1267.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2309.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2438.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2439.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2440.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2441.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2442.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2443.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2444.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2445.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2446.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2480.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2480_2.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2480_3.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2490.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2562.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2562_2.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2576.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2577.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2587.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2752.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b2753.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b10093.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b10171.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b10804.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b10871.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x02\b15552.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x03\3_b10808.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x03\3_vecEx.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x03\b10807.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
+    <ClCompile Include="4_test.cpp">
+      <Filter>소스 파일\0x04_f</Filter>
+    </ClCompile>
+    <ClCompile Include="3_10807.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
+    <ClCompile Include="3_10807_2.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
+    <ClCompile Include="3_b11328.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
+    <ClCompile Include="3_b13300.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
+    <ClCompile Include="3_b1475.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
