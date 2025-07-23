@@ -159,5 +159,8 @@
     <ClCompile Include="3_b3273.cpp">
       <Filter>소스 파일\0x03_f</Filter>
     </ClCompile>
+    <ClCompile Include="3_ThinkBigO.cpp">
+      <Filter>소스 파일\0x03_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
