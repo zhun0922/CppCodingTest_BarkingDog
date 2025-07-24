@@ -165,5 +165,8 @@
     <ClCompile Include="review_b2309.cpp">
       <Filter>소스 파일\0x02_f</Filter>
     </ClCompile>
+    <ClCompile Include="review_b2480.cpp">
+      <Filter>소스 파일\0x02_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
