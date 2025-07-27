@@ -171,5 +171,8 @@
     <ClCompile Include="4_list.cpp">
       <Filter>소스 파일\0x04_f</Filter>
     </ClCompile>
+    <ClCompile Include="4_b1406_Editor.cpp">
+      <Filter>소스 파일\0x04_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
