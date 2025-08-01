@@ -25,6 +25,10 @@ int main() {
 
 	auto iter = lst.begin();
 
+	for (int i = 0; i < n; i++) {
+		cout << 
+	}
+
 
 
 }

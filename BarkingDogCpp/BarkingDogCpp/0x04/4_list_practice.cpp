@@ -25,8 +25,6 @@ void traverse() {
 	}
 }
 
-//1. 마지막이어도 자기 자신뿐일때 가리킬 필요 x 
-//2. 두개 째부터 원형이 되어지는데, 두개 쨰일떄 다음요소가 없다면  첫번재 요소를 가리키면됨
 void insert(int adr, int val) {
 
 	int cur = 0;

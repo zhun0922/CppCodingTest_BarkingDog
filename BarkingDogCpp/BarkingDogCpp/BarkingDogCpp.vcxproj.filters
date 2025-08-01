@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\0x04_f">
       <UniqueIdentifier>{d66f15ae-325e-4b4c-89fe-8f3669b8d659}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0x05_f">
+      <UniqueIdentifier>{190fbc33-8161-4be5-9407-e81cfa9e8abe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_1.cpp">
@@ -182,6 +185,21 @@
     </ClCompile>
     <ClCompile Include="4_list_practice.cpp">
       <Filter>소스 파일\0x04_f</Filter>
+    </ClCompile>
+    <ClCompile Include="4_circularList.cpp">
+      <Filter>소스 파일\0x04_f</Filter>
+    </ClCompile>
+    <ClCompile Include="4_1158_later!!!!.cpp">
+      <Filter>소스 파일\0x04_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_stack.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_stl_stack.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b10828.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
