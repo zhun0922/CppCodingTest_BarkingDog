@@ -201,5 +201,11 @@
     <ClCompile Include="5_b10828.cpp">
       <Filter>소스 파일\0x05_f</Filter>
     </ClCompile>
+    <ClCompile Include="5_b17298.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b10773.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
