@@ -207,5 +207,14 @@
     <ClCompile Include="5_b10773.cpp">
       <Filter>소스 파일\0x05_f</Filter>
     </ClCompile>
+    <ClCompile Include="5_b1874.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b2493_1struct.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b2493_2Pair.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
