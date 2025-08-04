@@ -1,13 +1,12 @@
 #include <iostream>
 #include <algorithm>
 #include <stack>
+#include <vector>
 
 using namespace std;
 
-int A[10000005];
-int input[10000005];
-int res[10000005];
 int k;
+int arr[1000000], ans[1000000];
 
 int main()
 {
@@ -17,29 +16,26 @@ int main()
     cin >> k;
 
     for (int i = 0; i < k; i++) {
-        int a = 0; 
-        cin >> a;
-        input[i] = a;
-        A[a] = 1;
+        int input = 0;
+        cin >> input;
+        arr[i] = input;
     }
 
-    int nge = -1;
+    stack<int> s;
+    for (int i = k - 1; i >= 0; i--) {
+        while (!s.empty() && arr[i] >= s.top()) s.pop();
 
-    for (int i = 10000005; i >= 0; i--) {
-        if (A[i]) {
-            if (i > nge) {
-                res[i] = -1;
-                cout << res[i] << "!!" << i << "!!";
-            }
-            else if (i < nge) {
-                res[i] = nge;
-                cout << res[i] << "!!" << i << "!!";
-            }
-            nge = i;
+        if (s.empty()) {
+            ans[i] = -1;
         }
+        else {
+            ans[i] = s.top();
+        }
+        s.push(arr[i]);
     }
 
-    for (int i = 0; i < 10000005; i++) {
-        if(input[i] > 0) cout << res[input[i]] << ' ';
+    for (int i = 0; i < k; i++) {
+        cout << ans[i] << ' ';
     }
+
 }
