@@ -216,5 +216,20 @@
     <ClCompile Include="5_b2493_2Pair.cpp">
       <Filter>소스 파일\0x05_f</Filter>
     </ClCompile>
+    <ClCompile Include="5_b3015.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b3015later!!.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b6198.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b_17298_practice.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="5_b2493_practice.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
