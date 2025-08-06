@@ -231,5 +231,8 @@
     <ClCompile Include="5_b2493_practice.cpp">
       <Filter>소스 파일\0x05_f</Filter>
     </ClCompile>
+    <ClCompile Include="5_b1874_practice.cpp">
+      <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
