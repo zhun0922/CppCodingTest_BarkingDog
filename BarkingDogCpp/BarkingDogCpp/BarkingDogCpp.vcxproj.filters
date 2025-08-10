@@ -240,5 +240,11 @@
     <ClCompile Include="6_queue.cpp">
       <Filter>소스 파일\0x06_f</Filter>
     </ClCompile>
+    <ClCompile Include="6_stlqueue.cpp">
+      <Filter>소스 파일\0x06_f</Filter>
+    </ClCompile>
+    <ClCompile Include="6_b10845.cpp">
+      <Filter>소스 파일\0x06_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

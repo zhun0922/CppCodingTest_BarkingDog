@@ -12,7 +12,7 @@ void push(int x) {
 }
 
 void pop() {
-	if(head < tail) head++;
+	head++;
 }
 
 int front() {
@@ -22,13 +22,6 @@ int front() {
 int back() {
 	return dat[tail - 1];
 }
-
-void traverse() {
-	for (int i = head; i < tail; i++) {
-		cout << dat[i];
-	}
-}
-
 
 int main() {
 	push(10); push(20); push(30);
