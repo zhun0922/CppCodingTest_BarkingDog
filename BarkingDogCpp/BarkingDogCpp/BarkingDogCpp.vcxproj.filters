@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\0x05_f">
       <UniqueIdentifier>{190fbc33-8161-4be5-9407-e81cfa9e8abe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0x06_f">
+      <UniqueIdentifier>{8e8b820e-c3a0-4ad6-a36b-3b8214b2b12f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_1.cpp">
@@ -233,6 +236,9 @@
     </ClCompile>
     <ClCompile Include="5_b1874_practice.cpp">
       <Filter>소스 파일\0x05_f</Filter>
+    </ClCompile>
+    <ClCompile Include="6_queue.cpp">
+      <Filter>소스 파일\0x06_f</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
