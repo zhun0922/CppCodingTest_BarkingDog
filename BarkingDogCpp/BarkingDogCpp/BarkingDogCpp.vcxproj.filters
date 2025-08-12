@@ -264,5 +264,8 @@
     <ClCompile Include="7_b10866.cpp">
       <Filter>소스 파일\0x07_f</Filter>
     </ClCompile>
+    <ClCompile Include="7_b1021.cpp">
+      <Filter>소스 파일\0x07_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

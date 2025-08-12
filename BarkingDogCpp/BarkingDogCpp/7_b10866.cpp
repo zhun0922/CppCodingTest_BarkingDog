@@ -32,6 +32,7 @@ int main() {
 			DQ.pop_back();
 		}
 		else if (s == "size") {
+
 			cout << DQ.size() << '\n';
 		}
 		else if (s == "empty") {
