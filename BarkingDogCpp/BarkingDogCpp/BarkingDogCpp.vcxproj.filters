@@ -267,5 +267,14 @@
     <ClCompile Include="7_b1021.cpp">
       <Filter>소스 파일\0x07_f</Filter>
     </ClCompile>
+    <ClCompile Include="7_b5430_wrong.cpp">
+      <Filter>소스 파일\0x07_f</Filter>
+    </ClCompile>
+    <ClCompile Include="b_stoiTest.cpp">
+      <Filter>소스 파일\0x07_f</Filter>
+    </ClCompile>
+    <ClCompile Include="7_b5430_1.cpp">
+      <Filter>소스 파일\0x07_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
