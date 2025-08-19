@@ -17,10 +17,10 @@ int main() {
 	string s = "";
 	map<char, char> bracket = { {'(', ')'}, {'[', ']'} };
 	
+
 	while (1) {
 		getline(cin, s);
 		if (s == ".") break;
-
 		stack<char> stk;
 
 		bool isValid = true; 
