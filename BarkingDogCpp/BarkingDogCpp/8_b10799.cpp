@@ -11,8 +11,8 @@ using namespace std;
 //prev가 (인데 다음입력이 ) 가 나왔다면 
 //레이저이므로 size()계산
 
-//prev가 (인데 다음입력이 (라면 push
-//prev가 )이면 그냥 저장만 하면됨
+// ) 가 나오면 result에 1추가 후 pop
+// ( 가 나오면 push(it)
 
 
 
@@ -26,40 +26,10 @@ int main() {
 	stack<char> s;
 	char pre = ' ';
 
-	//그냥 pre 가 ( 일때 다음이 )인것만 보면돼
-	// 
-
-
 	int result = 0;
-	/*for (auto& it : input) {
-		if (pre == ' ') {
-			s.push(it);
-		}
-		else if (pre == '(') {
-			if (it == ')' && !s.empty()) {
-				s.pop();
-				result += s.size();
-			}
-			else if (it == '(') {
-				s.push(it);
-			}
-		}
-
-		if (pre == ')') {
-			if (it == ')' && !s.empty()) {
-				result ++;
-				s.pop();
-			}
-			else if (it == '(') {
-				s.push(it);
-			}
-		}
-
-		pre = it;
-	}*/
 
 	for (auto& it : input) {
-		if (pre == '(' && it == ')') {
+		if (pre == '(' && it == ')') { //레이저일 경우
 			s.pop();
 			result += s.size();
 		}
