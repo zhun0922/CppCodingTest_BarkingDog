@@ -39,7 +39,5 @@ int main() {
 
 		if (s.empty()) cout << "YES\n";
 		else cout << "NO\n";
-
-
 	}
 }
