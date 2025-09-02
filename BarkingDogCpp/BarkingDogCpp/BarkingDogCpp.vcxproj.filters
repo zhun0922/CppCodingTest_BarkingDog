@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\0x08_f">
       <UniqueIdentifier>{4bbfadaf-43bd-488f-a15b-11e7507bc705}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0x09_f">
+      <UniqueIdentifier>{42e4c0a5-4464-44ea-92d4-2c54177ff26a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_1.cpp">
@@ -302,6 +305,15 @@
     </ClCompile>
     <ClCompile Include="8_b9012.cpp">
       <Filter>소스 파일\0x08_f</Filter>
+    </ClCompile>
+    <ClCompile Include="9_bfs_memory.cpp">
+      <Filter>소스 파일\0x09_f</Filter>
+    </ClCompile>
+    <ClCompile Include="9_bfs.cpp">
+      <Filter>소스 파일\0x09_f</Filter>
+    </ClCompile>
+    <ClCompile Include="9_b1926.cpp">
+      <Filter>소스 파일\0x09_f</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
