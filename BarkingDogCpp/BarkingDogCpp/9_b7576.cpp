@@ -8,17 +8,9 @@ int dx[] = { 1,-1,0,0 };
 int dy[] = { 0,0,1,-1 };
 
 int graph[1002][1002];
+int dis[1002][1002];
 
 int n, m, result;
-
-//시작점이 여러개야
-
-//1을찾는 BFS를 먼저 수행?
-
-
-//아니면
-//BFS 1번 딱 수행 이후 
-
 
 int main() {
 	ios::sync_with_stdio(0);
@@ -30,6 +22,7 @@ int main() {
 	for (int i = 0; i < m; i++) {
 		for (int j = 0; j < n; j++) {
 			cin >> input;
+
 			graph[i][j] = input;
 		}
 	}
@@ -38,7 +31,7 @@ int main() {
 
 	for (int i = 0; i < m; i++) {
 		for (int j = 0; j < n; j++) {
-			if (graph[i][j]) {
+			if (graph[i][j] == 1) {
 				Q.push({ i,j });
 			}
 		}
@@ -52,21 +45,26 @@ int main() {
 			int cx = cur.first + dx[i];
 			int cy = cur.second + dy[i];
 
-			if (cx < 0 || cy < 0 || cx > m || cy > n) continue;
+			if (cx < 0 || cy < 0 || cx >= m || cy >= n) continue;
 			if (graph[cx][cy] == 1 || graph[cx][cy] == -1) continue;
 
 			graph[cx][cy] = 1;
+			dis[cx][cy] = dis[cur.first][cur.second] + 1;
 			Q.push({ cx,cy });
 		}
-
-		for (int i = 0; i < m; i++) {
-			for (int j = 0; j < n; j++) {
-				cout << graph[i][j] << " ";
-			}
-			cout << endl;
-		}
-		cout << endl;
 	}
 
-	cout << result;
+	int max = 0;
+	for (int i = 0; i < m; i++) {
+		for (int j = 0; j < n; j++) {
+			if (graph[i][j] == 0) {
+				cout << -1;
+				return 0;
+			}
+			if (dis[i][j] > max) max = dis[i][j];
+			
+		}
+	}
+
+	cout << max;
 }

@@ -324,5 +324,8 @@
     <ClCompile Include="9_b7576.cpp">
       <Filter>소스 파일\0x09_f</Filter>
     </ClCompile>
+    <ClCompile Include="9_b7569.cpp">
+      <Filter>소스 파일\0x09_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
