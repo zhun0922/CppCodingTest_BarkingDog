@@ -21,10 +21,7 @@ int main() {
 	while (!Q.empty()) {
 		int cur = Q.front();
 		Q.pop();
-		if (cur == k) {
-			cout << dis[cur];
-			return 0;
-		}
+		
 		for (int i = 0; i < 3; i++) {
 			int cx = 0;
 			if (i == 0) {
@@ -37,8 +34,13 @@ int main() {
 				cx = cur * 2;
 			}
 
+			if (cur == k) {
+				cout << dis[cur];
+				return 0;
+			}
 			if (cx < 0 || cx > 100000) continue;
 			if (dis[cx] != -1) continue;
+
 
 			Q.push(cx);
 			dis[cx] = dis[cur] + 1;

@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\0x09_f">
       <UniqueIdentifier>{42e4c0a5-4464-44ea-92d4-2c54177ff26a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0x0A_f">
+      <UniqueIdentifier>{c9f7354d-a26b-4105-8eae-cbe152bc9cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\0x0B_f">
+      <UniqueIdentifier>{6a059b69-2f9e-468e-97bc-02c55b4bbfe7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_1.cpp">
@@ -341,6 +347,18 @@
     </ClCompile>
     <ClCompile Include="9_b1692_2.cpp">
       <Filter>소스 파일\0x09_f</Filter>
+    </ClCompile>
+    <ClCompile Include="9_b_1697re!!.cpp">
+      <Filter>소스 파일\0x09_f</Filter>
+    </ClCompile>
+    <ClCompile Include="10_DFS.cpp">
+      <Filter>소스 파일\0x0A_f</Filter>
+    </ClCompile>
+    <ClCompile Include="10_recursion_ex.cpp">
+      <Filter>소스 파일\0x0B_f</Filter>
+    </ClCompile>
+    <ClCompile Include="10_recursion_ex2.cpp">
+      <Filter>소스 파일\0x0B_f</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
