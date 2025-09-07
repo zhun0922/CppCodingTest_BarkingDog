@@ -336,5 +336,11 @@
     <ClCompile Include="8_b2504_re2.cpp">
       <Filter>소스 파일\0x08_f</Filter>
     </ClCompile>
+    <ClCompile Include="9_b1697.cpp">
+      <Filter>소스 파일\0x09_f</Filter>
+    </ClCompile>
+    <ClCompile Include="9_b1692_2.cpp">
+      <Filter>소스 파일\0x09_f</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
