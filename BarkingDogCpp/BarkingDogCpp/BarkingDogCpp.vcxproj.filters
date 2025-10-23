@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\0x0B_f">
       <UniqueIdentifier>{6a059b69-2f9e-468e-97bc-02c55b4bbfe7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10_12_review">
+      <UniqueIdentifier>{7266977b-034e-4ea1-955f-8085034fc1e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Desktop\BaaarkingDogCPP\BaaarkingDogCPP\0x01\1_1.cpp">
@@ -359,6 +362,18 @@
     </ClCompile>
     <ClCompile Include="10_recursion_ex2.cpp">
       <Filter>소스 파일\0x0B_f</Filter>
+    </ClCompile>
+    <ClCompile Include="rv_10_b10093.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
+    </ClCompile>
+    <ClCompile Include="rv_10_b2309.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
+    </ClCompile>
+    <ClCompile Include="rv_10_b2576.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
+    </ClCompile>
+    <ClCompile Include="rv_10_b2562.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
