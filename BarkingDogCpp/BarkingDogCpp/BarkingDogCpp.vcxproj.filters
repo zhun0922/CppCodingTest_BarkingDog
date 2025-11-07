@@ -375,5 +375,17 @@
     <ClCompile Include="rv_10_b2562.cpp">
       <Filter>소스 파일\10_12_review</Filter>
     </ClCompile>
+    <ClCompile Include="rv_10_b2577.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
+    </ClCompile>
+    <ClCompile Include="10_rv_b10773.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
+    </ClCompile>
+    <ClCompile Include="10_rv_b17298.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
+    </ClCompile>
+    <ClCompile Include="11_rv_2493.cpp">
+      <Filter>소스 파일\10_12_review</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
