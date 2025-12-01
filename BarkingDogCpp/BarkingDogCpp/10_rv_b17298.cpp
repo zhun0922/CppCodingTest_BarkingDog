@@ -19,7 +19,7 @@ int main() {
 	}
 
 	for (int i = n-1; i >= 0; i--) {
-		while (!S.empty() && S.top() < arr[i]) {
+		while (!S.empty() && S.top() <= arr[i]) {
 			S.pop();
 		}
 		if (S.empty()) {
